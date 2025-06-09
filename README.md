@@ -32,6 +32,6 @@ MOSHII-SHELL is a stealthy, feature-rich PHP web shell designed for penetration 
   2-  Go to directory of your shell
   3-  voila.. you got your own terminal (SHELL) into your browser.
   ----------------------------------------------------------------------------------------------
-  Try the tool on HackTheBox machine called (Mist)
+  Tried the tool on HackTheBox machine called (Mist)
   link of video :
   https://youtu.be/zGecglNKpa0
