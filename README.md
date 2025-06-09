@@ -1,6 +1,5 @@
 🔥 MOSHII-SHELL - Next-Gen Web Shell for Security Professionals
 
-https://i.imgur.com/example.png
 🌟 The Evolution of Web Shells
 
 Moshii-Shell is the enhanced successor to p0wny-shell, redefining what a PHP web shell can do. Designed for elite penetration testers and red team operators, this tool combines cutting-edge evasion techniques with powerful post-exploitation capabilities - all wrapped in a sleek, browser-based terminal interface.
@@ -36,7 +35,7 @@ netstat -tuln    # Network service mapping
 getprivs         # Privilege escalation checks
 
 🎬 Real-World Proof: HTB Mist Takeover
-(https://youtu.be/zGecglNKpa0)
+      https://youtu.be/zGecglNKpa0
 Watch how Moshii-Shell dominated the HackTheBox Mist machine
 
 
