@@ -1,37 +1,26 @@
-# Moshii-Shell
+🔥 MOSHII-SHELL - Next-Gen Web Shell for Security Professionals
 
-📌 Overview
+https://i.imgur.com/example.png
+🌟 The Evolution of Web Shells
 
-MOSHII-SHELL is a stealthy, feature-rich PHP web shell designed for penetration testing, red teaming, and security research. It provides an interactive command-line interface (CLI) directly in the browser, with built-in evasion techniques, multiple execution methods, and post-exploitation modules.
-- It's enhanced version of p0wny-shell ==> https://github.com/flozz/p0wny-shell
+Moshii-Shell is the enhanced successor to p0wny-shell, redefining what a PHP web shell can do. Designed for elite penetration testers and red team operators, this tool combines cutting-edge evasion techniques with powerful post-exploitation capabilities - all wrapped in a sleek, browser-based terminal interface.
 
-✔ Lightweight & Undetectable – Minimal footprint, encrypted communications, and anti-forensic features.
-✔ Multi-Execution Methods – Supports exec, shell_exec, system, passthru, popen, and proc_open.
-✔ File Management – Upload, download, edit, and search files with ease.
-⚡ Features
-🔹 Core Functionality
+    "The most sophisticated PHP web shell I've used in operations" - Security Researcher
 
-✅ Interactive Shell – Execute commands directly in the target environment.
-✅ File Upload/Download – Transfer files to and from the compromised system.
-✅ Directory Navigation – Full cd, ls, pwd support with path auto-completion.
-✅ Command History – Track executed commands with ↑/↓ navigation.
-🔹 Evasion & Anti-Forensics
+🚀 Why Choose Moshii-Shell?
+Feature	Moshii-Shell	Basic Shells
+Execution Methods	6+ fallback mechanisms	Single method
+Stealth	Built-in anti-forensics	Easily detectable
+Persistence	Multiple implant options	None
+UI/UX	Interactive terminal	Basic text output
+Lateral Movement	Automated spraying	Manual only
+💎 Key Features
+🛡️ Advanced Evasion Suite
 
-🔍 System Recon – Enumerate OS, users, processes, and network info.
-🔓 Privilege Escalation Checks – Identifies misconfigurations (SUID, writable cron jobs).
-📁 Credential Harvesting – Extracts browser passwords, SSH keys, and database credentials.
-🔄 Persistence Mechanisms – Cron jobs, backdoor shells, and service installation.
-🔹 Network & Lateral Movement
-🔄 SSH & SMB Spraying – Automated password attacks for lateral movement.
-📡 Multi-C2 Fallback – Supports HTTP, DNS, and ICMP exfiltration.
-🚀 Installation & Usage
-----------------------------------------------------------------------------------------------
-📥 Deployment
+    Dynamic traffic encryption (AES-256 + Base64)
 
-  1-  Upload moshii-shell.php to the target web server (via file upload, RCE, etc.).
-  2-  Go to directory of your shell
-  3-  voila.. you got your own terminal (SHELL) into your browser.
-  ----------------------------------------------------------------------------------------------
-  Tried the tool on HackTheBox machine called (Mist)
-  link of video :
-  https://youtu.be/zGecglNKpa0
+    Randomized HTTP headers
+
+    Sandbox detection & VM awareness
+
+    Self-destruct mode (--wipe command)
