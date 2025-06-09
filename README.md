@@ -6,7 +6,8 @@ https://i.imgur.com/example.png
 Moshii-Shell is the enhanced successor to p0wny-shell, redefining what a PHP web shell can do. Designed for elite penetration testers and red team operators, this tool combines cutting-edge evasion techniques with powerful post-exploitation capabilities - all wrapped in a sleek, browser-based terminal interface.
 
     "The most sophisticated PHP web shell I've used in operations" - Security Researcher
-
+- It's enhanced version of p0wny-shell ==> https://github.com/flozz/p0wny-shell
+  
 🚀 Why Choose Moshii-Shell?
 Feature	Moshii-Shell	Basic Shells
 Execution Methods	6+ fallback mechanisms	Single method
@@ -35,37 +36,9 @@ netstat -tuln    # Network service mapping
 getprivs         # Privilege escalation checks
 
 🎬 Real-World Proof: HTB Mist Takeover
-
-https://img.youtube.com/vi/zGecglNKpa0/0.jpg
-
+(https://youtu.be/zGecglNKpa0)
 Watch how Moshii-Shell dominated the HackTheBox Mist machine
-⚙️ One-Click Deployment
-bash
 
-# Simple deployment:
-curl -F "file=@moshii-shell.php" http://target/upload.php
-
-
-🧠 Operator's Playbook
-Basic Usage
-bash
-
-help                  # Show available commands
-clear                 # Clean the terminal
-id                    # Check current privileges
-
-Post-Exploitation
-bash
-
-persist --install     # Establish foothold
-creds --dump-all      # Harvest credentials
-lateral --ssh 192.168.1.0/24 # Network spreading
-
-Clean Exit
-bash
-
-logs --clean          # Wipe traces
-wipe --self-destruct  # Remove shell
 
 📜 Ethical Notice
 
